@@ -1,0 +1,162 @@
+body  {
+background: #F4F4F4;
+margin: 0;
+}
+
+#container { 
+width: 1000px;
+margin-left: 360;
+background: #FFFFFF;
+}
+
+#header { 
+padding: 40px 0 80px 0px;
+} 
+
+#header a1 {
+color: #121212;
+text-decoration: none;
+font-size: 30px; 
+font-family: "Myriad Pro", "Arial Narrow";
+margin-left: 0px;
+margin-top: 40px;
+}
+
+#menu {
+%background-color: #D9D9DC; 
+padding: 5px 0 5px 30px;
+%font-weight: bold;
+}
+
+#menu a {
+color: #0000FF;
+text-decoration: none; 
+font-size: 16px; 
+font-family: Arial;
+%text-transform: uppercase;
+}
+
+#menu a:hover {
+color: #881111;
+}
+
+#menu a.selected {
+	color: #881111;
+	text-decoration: none; 
+	font-size: 16px; 
+	font-family: Arial;
+%	text-transform: uppercase;
+}
+
+
+#menu1 {
+background-color: #800000; 
+padding: 0px 0 2px 40px;
+}
+
+
+h1 {
+margin: 0px;
+color: #869843; 
+font-size:24px; 
+font-family: "Arial Narrow", "Myriad Pro"; 
+font-weight: normal;
+}
+
+h2 {
+color: #881111;
+font-size: 16px; 
+margin: 20px 0 5px 0;
+}
+
+
+
+#content { 
+margin: 0 0 0 0px;
+padding: 15px 40px 30px 20;
+color: #111111;
+font-family: Times New Roman;
+font-size: 16px; 
+line-height: 22px;
+text-align: justify;
+} 
+
+#content a {
+color: #0000FF; 
+text-decoration: none;
+}
+
+#content a:hover {
+color: #881111;
+}
+
+
+div.imgbox {
+	float:middle;
+	width:160px;
+	height:200px;
+	text-align:center;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+
+
+div.imgbox1 {
+	float:middle;
+	width:400px;
+	height:160px;
+	margin-left:180px;
+	margin-top:-200px;
+}
+
+
+div.imgbox1 h1 {
+	text-align:left;
+	margin:0px;
+	color: #121212;
+	text-decoration: none;
+	font-size: 30px; 
+	font-family:Times New Roman;
+	font-weight:normal;
+}
+
+div.imgbox1 h2 {
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	color: #121212;
+	text-decoration: none;
+	font-size: 16px; 
+	font-family:Times New Roman;
+	font-weight:normal;
+	line-height:22px;
+}
+
+div.imgbox1 h2 a {
+color: #111188; 
+text-decoration: none;
+}
+
+div.imgbox1 h2 a:hover {
+color: #881111;
+}
+
+
+div.imgbox2 {
+	float:middle;
+	width:160px;
+	height:140px;
+	text-align:center;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+div.imgbox3 {
+	float:middle;
+	width:160px;
+	height:140px;
+	text-align:center;
+	margin-left:180px;
+	margin-top:-140px;
+}
